@@ -1,7 +1,8 @@
 Very simple libvmaf container class
 
-* usage *
+* usage 
 
+```
 VmafHelper vmaf;
 VmafHelperConfig vmafCfg;
 
@@ -17,3 +18,4 @@ vmaf.Create(vmafCfg);
 
 vmaf.PutFrame(pRefFrame, pDistFrame);
 auto result = vmaf.GetResult();
+```
